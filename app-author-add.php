@@ -878,26 +878,21 @@
     <div class="card">
       <div class="card-header sticky-element bg-label-secondary d-flex justify-content-sm-between align-items-sm-center flex-column flex-sm-row">
         <h5 class="card-title mb-sm-0 me-2">اضافة مؤلف</h5>
-        <div class="action-btns">
-          <button class="btn btn-label-primary me-3">
-            <span class="align-middle"> Back</span>
-          </button>
-         
-        </div>
+       
       </div>
       <div class="card-body">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-          <form action="" method="post" >
+          <form action="save_author" method="POST" >
            
             <div class="row g-3">
               <div class="col-md-6">
                 <label class="form-label" for="Title">الاسم</label>
-                <input type="text" id="Title" class="form-control" placeholder="" />
+                <input type="text" id="Title" class="form-control" name ="name" placeholder="" />
               </div>
               <div class="col-md-6">
                 <label class="form-label" for="alt-num">الرقم</label>
-                <input type="text" id="alt-num" class="form-control phone-mask" placeholder="" />
+                <input type="text" id="alt-num" name ="phone"class="form-control phone-mask" placeholder="" />
               </div>
               <div class="col-md-6">
                 <label class="form-label" for="email">الايميل</label>
